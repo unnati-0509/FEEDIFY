@@ -1,12 +1,10 @@
 import React from "react";
-import Section from "./Section";
 import { socials } from "../constants";
 import { phone, mail } from "../assets";
 
 const Footer = () => {
   return (
     <footer>
-      {/* // <Section crosses className="bg-n-1 !px-0 !py-10"> */}
       <div className="container flex flex-col py-10 sm:flex-row justify-between items-center gap-10 max-sm:flex-col">
         <div className="flex items-center gap-5">
           <p className="text-n-5 text-1.5xl lg:block">
@@ -67,7 +65,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-    // </Section>
   );
 };
 

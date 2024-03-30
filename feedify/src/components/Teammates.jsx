@@ -1,20 +1,17 @@
 import React from "react";
 import { members } from "../constants";
 import Heading from "./Heading";
-import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
 const Teammates = () => {
   return (
-    <teammates>
-      {/* <Section id="features"> */}
+    <section>
       <div className="container bg-n-2 z-1 pt-10 pb-10 ">
         <Heading
           className="text-black underline md:max-w-md lg:max-w-2xl"
           title="[  Project TeamMates  ]"
         />
-
         <div className="grid grid-cols-4 gap-10 mb-10">
           {members.map((item) => (
             <div
@@ -40,9 +37,7 @@ const Teammates = () => {
                   </p>
                 </div>
               </div>
-
               <GradientLight />
-
               <div
                 className="absolute inset-0.5 bg-n-7"
                 style={{ clipPath: "url(#benefits)" }}
@@ -59,14 +54,12 @@ const Teammates = () => {
                   )}
                 </div>
               </div>
-
               <ClipPath />
             </div>
           ))}
         </div>
       </div>
-      {/* </Section> */}
-    </teammates>
+    </section>
   );
 };
 

@@ -1,13 +1,10 @@
-import Section from "./Section";
 import { banner } from "../assets";
 import Heading from "./Heading";
-import PricingList from "./RaterList";
-//import { LeftLine, RightLine } from "./design/Pricing";
+import RaterList from "./RaterList";
 
 const Ratereview = () => {
   return (
-    <ratereview>
-      {/* <Section id="rating"> */}
+    <section>
       <div className="container bg-n-3 relative py-10 z-2">
         <div className="hidden relative justify-center pt-[2rem] mb-[3rem] lg:flex">
           <img
@@ -25,9 +22,7 @@ const Ratereview = () => {
         />
 
         <div className="relative">
-          <PricingList />
-          {/* <LeftLine /> */}
-          {/* <RightLine /> */}
+          <RaterList />
         </div>
 
         <div className="flex justify-center mt-10 pb-10">
@@ -36,8 +31,7 @@ const Ratereview = () => {
           </p>
         </div>
       </div>
-      {/* </Section> */}
-    </ratereview>
+    </section>
   );
 };
 
