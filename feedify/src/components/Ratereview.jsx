@@ -1,4 +1,4 @@
-import { banner } from "../assets";
+import { banner } from "../../public/assets";
 import Heading from "./Heading";
 import RaterList from "./RaterList";
 

@@ -10,7 +10,7 @@ import {
   telegram,
   twitter,
   mem,
-} from "../assets";
+} from "../../public/assets";
 
 export const navigation = [
   {

@@ -1,4 +1,4 @@
-import { ratte } from "../assets";
+import { ratte } from "../../public/assets";
 import { rating } from "../constants";
 
 const RaterList = () => {

@@ -1,6 +1,6 @@
 import Heading from "./Heading";
 import { insight } from "../constants";
-import { grid } from "../assets";
+import { grid } from "../../public/assets";
 
 const Insights = () => (
   <section>

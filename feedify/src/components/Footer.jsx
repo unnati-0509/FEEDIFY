@@ -1,6 +1,6 @@
 import React from "react";
 import { socials } from "../constants";
-import { phone, mail } from "../assets";
+import { phone, mail } from "../../public/assets";
 
 const Footer = () => {
   return (

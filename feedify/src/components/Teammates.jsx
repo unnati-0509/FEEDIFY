@@ -2,7 +2,7 @@ import React from "react";
 import { members } from "../constants";
 import Heading from "./Heading";
 import { GradientLight } from "./design/Benefits";
-import ClipPath from "../assets/svg/ClipPath";
+import ClipPath from "../../public/assets/svg/ClipPath";
 
 const Teammates = () => {
   return (

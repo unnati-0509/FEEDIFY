@@ -8,6 +8,10 @@ export default {
     extend: {
       colors: {
         color: {
+          transparent: "transparent",
+          current: "currentColor",
+           white: "#ffffff",
+          black: "#000000",
           1: "#FCF7F8",
           2: "#CED3DC",
           3: "#ABA9C3",
@@ -18,20 +22,22 @@ export default {
           1: "#262730",
         },
         n: {
-          1: "#FCF7F8",
-          2: "#CED3DC",
-          3: "#ABA9C3",
-          4: "#275DAD",
-          5: "#5B616A",
-          6: "#FFFFFF",
+          1: "#FCF7F8", //snow
+          2: "#CED3DC", //french gray
+          3: "#ABA9C3", //rose-quartch
+          4: "#275DAD", //denim
+          5: "#5B616A",//paynes-gray
+          6: "#FFFFFF",//white
           7: "#262730",
           8: "#5B616A",
+          9: "#000000",//black
         },
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
+        poppins: ["Poppins", "sans-serif"], //////
       },
       letterSpacing: {
         tagline: ".15em",
